@@ -27,7 +27,7 @@ public class SwtTest {
 		Display display = Display.getDefault();
 		createContents();
 		shell.open();
-		shell.layout();
+//		shell.layout();
 		while (!shell.isDisposed()) {
 			if (!display.readAndDispatch()) {
 				display.sleep();
