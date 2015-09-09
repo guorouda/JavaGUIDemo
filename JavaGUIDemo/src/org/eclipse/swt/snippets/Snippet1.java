@@ -22,7 +22,7 @@ public class Snippet1 {
 
 public static void main (String [] args) {
 	Display display = new Display ();
-	Shell shell = new Shell(display);
+	Shell shell = new Shell();
 	shell.open ();
 	while (!shell.isDisposed ()) {
 		if (!display.readAndDispatch ()) display.sleep ();
