@@ -22,6 +22,7 @@ public class TestAppp {
 
 	/**
 	 * Open the window.
+	 * author: sunrong
 	 */
 	public void open() {
 		Display display = Display.getDefault();
